@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">myApp</string>
+    <string name="action_about">关于</string>
+    <string name="title_activity_line_chart">LineChartActivity</string>
+    <string name="title_activity_column_chart">ColumnChartActivity</string>
+    <string name="title_activity_pie_chart">PieChartActivity</string>
+    <string name="title_activity_bubble_chart">BubbleChartActivity</string>
+    <string name="title_activity_preview_line_chart">PreviewLineChartActivity</string>
+    <string name="title_activity_preview_column_chart">PreviewColumnChartActivity</string>
+    <string name="title_activity_combo_line_column_chart">ComboLineColumnChartActivity</string>
+    <string name="title_activity_line_column_dependency">温度变传感器</string>
+    <string name="title_activity_good_bad">GoodBadActivity</string>
+    <string name="title_activity_tempo_chart">TempoChartActivity</string>
+    <string name="title_activity_speed_chart">SpeedChartActivity</string>
+    <string name="title_activity_view_pager_charts">ViewPagerChartsActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_about">你好世界</string>
+    <string name="about_version_label">"Library version "</string>
+    <string name="about_author">Leszek Wach 2014</string>
+    <string name="about_app_icon_content_description">App icon</string>
+    <string name="about_go_to_github">Go to GitHub</string>
+
+
+
+    <string name="Reset_chart">重置</string>
+
+    <string name="Add_line">添加曲线</string>
+
+
+    <string name="Toggle_lines_scattered">是否显示</string>
+    <string name="Toggle_points">是否显示点</string>
+    <string name="Toggle_Cubic_curve">显示平滑</string>
+    <string name="Toggle_area">显示面积</string>
+    <string name="Toggle_Point_Color">改变点的颜色</string>
+    <string name="Circle_shape">圆形点</string>
+
+    <string name="Square_shape">方形点</string>
+    <string name="Diamond_shape">菱形点</string>
+    <string name="Toggle_axes">显示坐标</string>
+    <string name="Toggle_axes_names">显示坐标名称</string>
+    <string name="Toggle_labels">显示数据</string>
+
+    <string name="Animate_chart">动画</string>
+    <string name="Toggle_selection_mode">是否选择</string>
+    <string name="Toggle_touch_zoom">是否缩放</string>
+    <string name="Zoom_XY">XY缩放</string>
+    <string name="Zoom_X">X缩放</string>
+    <string name="Zoom_Y">Y缩放</string>
+
+
+    <string name="扫描到的传感器">扫描到的传感器</string>
+
+    <string name="tt">tt</string>
+</resources>

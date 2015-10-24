@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/childRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light">
+
+    <TextView
+        android:id="@+id/childNameTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0px"
+        android:paddingLeft="50px"
+        android:paddingTop="20px"
+        android:text="No data"
+        android:textSize="20sp"
+        android:textColor="#ff0099cc"
+        android:background="@android:color/background_light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+
+
+            android:text="null"
+            android:id="@+id/childMac"
+            android:paddingLeft="50px"
+            android:paddingBottom="20px"
+            android:layout_below="@+id/childNameTo"
+            android:layout_alignLeft="@+id/childNameTo"
+            android:layout_alignStart="@+id/childNameTo" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/childState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="45px"
+        android:paddingRight="50px"
+        android:paddingTop="45px"
+        android:text="未连接"
+        android:textSize="15sp"
+        android:background="@android:color/background_light"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ff757575" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/StateProgressBar"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/childState"
+        android:layout_toStartOf="@+id/childState"
+        android:layout_alignBottom="@+id/childMac"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

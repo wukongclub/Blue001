@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="lecho.lib.hellocharts.samples.LineChartActivity" >
+
+    <item
+        android:id="@+id/save_temple_data"
+        android:title="记录"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/show_temple_data"
+        android:title="显示"
+        app:showAsAction="never"/>
+
+
+</menu>
